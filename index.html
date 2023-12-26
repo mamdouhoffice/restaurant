@@ -4,6 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Restaurant</title>
+
+        <!-- ASo style file  -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet" />
         <!-- Template Stylesheet  -->
         <link rel="stylesheet" href="css/style.css" />
 
@@ -49,7 +54,7 @@
                 </nav>
                 <!-- Start Hero  -->
                 <div class="hero-content">
-                    <div class="text">
+                    <div class="text" data-aos="fade-right">
                         <h1 class="title">
                             Enjoy Our <br />
                             Delicious Meal
@@ -62,7 +67,8 @@
                         </p>
                         <a href="" class="btn">Book A Table</a>
                     </div>
-                    <div class="spiner">
+
+                    <div class="spiner" data-aos="fade-left">
                         <img src="img/hero.png" alt="" />
                     </div>
                 </div>
@@ -71,7 +77,7 @@
 
             <!-- Start Service Section  -->
             <section class="service">
-                <div class="serv">
+                <div class="serv" data-aos="fade-up">
                     <i class="fa fa-3x fa-user-tie"></i>
                     <h3>Master Chefs</h3>
                     <p>
@@ -80,7 +86,7 @@
                     </p>
                 </div>
 
-                <div class="serv">
+                <div class="serv" data-aos="fade-up">
                     <i class="fa fa-3x fa-utensils"></i>
                     <h3>Quality Food</h3>
                     <p>
@@ -89,7 +95,7 @@
                     </p>
                 </div>
 
-                <div class="serv">
+                <div class="serv" data-aos="fade-up">
                     <i class="fa fa-3x fa-cart-plus"></i>
                     <h3>Online Order</h3>
                     <p>
@@ -98,7 +104,7 @@
                     </p>
                 </div>
 
-                <div class="serv">
+                <div class="serv" data-aos="fade-up">
                     <i class="fa fa-3x fa-headset"></i>
                     <h3>24/7 Service</h3>
                     <p>
@@ -112,10 +118,10 @@
             <!-- // Start About Us Section //  -->
             <section class="about">
                 <div class="left">
-                    <img src="img/about-1.jpg" alt="" />
-                    <img src="img/about-2.jpg" alt="" />
-                    <img src="img/about-3.jpg" alt="" />
-                    <img src="img/about-4.jpg" alt="" />
+                    <img src="img/about-1.jpg" alt="" data-aos="zoom-in" />
+                    <img src="img/about-2.jpg" alt="" data-aos="zoom-in" />
+                    <img src="img/about-3.jpg" alt="" data-aos="zoom-in" />
+                    <img src="img/about-4.jpg" alt="" data-aos="zoom-in" />
                 </div>
 
                 <div class="right">
@@ -161,13 +167,13 @@
 
             <!-- Start Food Menu Section  -->
             <section class="menu">
-                <div class="head">
+                <div class="head" data-aos="fade-up">
                     <h1 class="headline">Food Menu</h1>
                     <h2>Most Popular Items</h2>
                 </div>
 
                 <div class="content">
-                    <ul class="nav-menu">
+                    <ul class="nav-menu" data-aos="fade-up">
                         <li class="active">
                             <a href="">
                                 <i class="fa fa-coffee fa-2x"></i>
@@ -199,7 +205,7 @@
                         </li>
                     </ul>
 
-                    <div class="body">
+                    <div class="body" data-aos="fade-up">
                         <div class="body-box">
                             <img src="img/menu-1.jpg" alt="" />
                             <div class="date">
@@ -318,17 +324,17 @@
 
             <!-- Start Booking Section  -->
             <section class="booking">
-                <div class="content">
-                    <div class="left">
+                <div class="content" data-aos="fade-up">
+                    <div class="left" data-aos="fade-up">
                         <i class="fa-solid fa-play icon"></i>
                         <img src="img/video.jpg" alt="" />
                     </div>
 
-                    <div class="right">
+                    <div class="right" data-aos="fade-up">
                         <h1 class="headline">Reservation</h1>
                         <h1 class="title">Book A Table Online</h1>
 
-                        <form action="">
+                        <form action="" data-aos="fade-up">
                             <div class="cell">
                                 <input class="cel" type="text" id="name" />
                                 <label for="name">Name</label>
@@ -374,55 +380,62 @@
 
             <!-- Start Team Section  -->
             <section class="team">
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-1.jpg" alt="" />
-                    </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
+                <div class="head" data-aos="fade-up">
+                    <h1 class="headline">Team Members</h1>
+                    <h2>Our Master Chefs</h2>
                 </div>
 
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-2.jpg" alt="" />
+                <div class="members" data-aos="fade-up">
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-1.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                </div>
 
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-3.jpg" alt="" />
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-2.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                </div>
 
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-4.jpg" alt="" />
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-3.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-4.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -430,11 +443,11 @@
 
             <!-- Start Testimonial Section  -->
             <section class="testimonial">
-                <div class="head">
+                <div class="head" data-aos="fade-up">
                     <h1 class="headline">Testimonial</h1>
                     <h2>Our Clients Say!!!</h2>
                 </div>
-                <div class="testim">
+                <div class="testim" data-aos="fade-up">
                     <div class="t-box">
                         <i class="fa fa-quote-left fa-2x"></i>
                         <p>
@@ -482,7 +495,7 @@
             <!-- // End Testimonial Section // -->
 
             <!-- // End Footer Section // -->
-            <footer class="footer">
+            <footer class="footer" data-aos="flip-down">
                 <div class="lists">
                     <div class="list">
                         <h1 class="headline">Company</h1>
@@ -564,5 +577,10 @@
             </footer>
             <!-- Start Footer Section  -->
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

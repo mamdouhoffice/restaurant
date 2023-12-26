@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Contact</title>
+        <!-- ASo style file  -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet" />
         <!-- Template Stylesheet  -->
         <link rel="stylesheet" href="css/style.css" />
 
@@ -50,7 +54,7 @@
 
                 <!-- Start Hero  -->
                 <div class="nav-content">
-                    <h1>Our Team</h1>
+                    <h1 data-aos="fade-down">Our Team</h1>
                     <ul>
                         <li>Home</li>
                         /
@@ -64,7 +68,11 @@
 
             <!-- Start Contact Section  -->
             <section class="contact">
-                <div class="top">
+                <div class="head" data-aos="fade-up">
+                    <h1 class="headline">Contact Us</h1>
+                    <h2>Contact For Any Query</h2>
+                </div>
+                <div class="top" data-aos="fade-up">
                     <div>
                         <h1 class="headline">Booking</h1>
                         <p><i class="fa fa-envelope"></i> book@example.com</p>
@@ -80,7 +88,7 @@
                 </div>
 
                 <div class="bottom">
-                    <div class="left">
+                    <div class="left" data-aos="fade-up">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24193.904582441603!2d-73.9853734347656!3d40.71277530000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1701960666189!5m2!1sar!2seg"
                             style="border: 0"
@@ -88,7 +96,7 @@
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="right">
+                    <div class="right" data-aos="fade-up">
                         <form action="">
                             <div class="cell">
                                 <input class="cel" type="text" id="name" />
@@ -125,7 +133,7 @@
             <!-- // End Contact Section // -->
 
             <!-- // End Footer Section // -->
-            <footer class="footer">
+            <footer class="footer" data-aos="flip-down">
                 <div class="lists">
                     <div class="list">
                         <h1 class="headline">Company</h1>
@@ -207,5 +215,10 @@
             </footer>
             <!-- Start Footer Section  -->
         </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

@@ -394,7 +394,10 @@ body {
 .container .about .right {
     width: 50%;
 }
-
+.container .head {
+    text-align: center;
+    margin-bottom: 20px;
+}
 .container .headline {
     font-family: "Pacifico", cursive;
     font-size: 25px;
@@ -781,14 +784,20 @@ body {
 
 .team {
     padding: 50px;
+    text-align: center;
+}
+
+.team .head {
+    margin-bottom: 20px;
+}
+
+.team .members {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
     gap: 10px;
-    /* height: 70vh; */
 }
-
 .team .mem {
     padding: 20px;
     overflow: hidden;

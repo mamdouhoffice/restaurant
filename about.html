@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About Us</title>
+        <!-- ASo style file  -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet" />
         <!-- Template Stylesheet  -->
         <link rel="stylesheet" href="css/style.css" />
 
@@ -50,7 +54,7 @@
 
                 <!-- Start Hero  -->
                 <div class="nav-content">
-                    <h1>About Us</h1>
+                    <h1 data-aos="fade-down">About Us</h1>
                     <ul>
                         <li>Home</li>
                         /
@@ -65,10 +69,10 @@
             <!-- // Start About Us Section //  -->
             <section class="about">
                 <div class="left">
-                    <img src="img/about-1.jpg" alt="" />
-                    <img src="img/about-2.jpg" alt="" />
-                    <img src="img/about-3.jpg" alt="" />
-                    <img src="img/about-4.jpg" alt="" />
+                    <img src="img/about-1.jpg" alt="" data-aos="zoom-in" />
+                    <img src="img/about-2.jpg" alt="" data-aos="zoom-in" />
+                    <img src="img/about-3.jpg" alt="" data-aos="zoom-in" />
+                    <img src="img/about-4.jpg" alt="" data-aos="zoom-in" />
                 </div>
 
                 <div class="right">
@@ -114,62 +118,69 @@
 
             <!-- Start Team Section  -->
             <section class="team">
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-1.jpg" alt="" />
-                    </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
+                <div class="head" data-aos="fade-up">
+                    <h1 class="headline">Team Members</h1>
+                    <h2>Our Master Chefs</h2>
                 </div>
 
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-2.jpg" alt="" />
+                <div class="members" data-aos="fade-up">
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-1.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                </div>
 
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-3.jpg" alt="" />
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-2.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                </div>
 
-                <div class="mem">
-                    <div class="image">
-                        <img src="img/team-4.jpg" alt="" />
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-3.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
-                    <h1 class="name">Full Name</h1>
-                    <small>Designation</small>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+
+                    <div class="mem" data-aos="fade-up">
+                        <div class="image">
+                            <img src="img/team-4.jpg" alt="" />
+                        </div>
+                        <h1 class="name">Full Name</h1>
+                        <small>Designation</small>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
                     </div>
                 </div>
             </section>
             <!-- // End Team Section // -->
 
             <!-- // End Footer Section // -->
-            <footer class="footer">
+            <footer class="footer" data-aos="flip-down">
                 <div class="lists">
                     <div class="list">
                         <h1 class="headline">Company</h1>
@@ -251,5 +262,10 @@
             </footer>
             <!-- Start Footer Section  -->
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

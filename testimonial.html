@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Testimonial</title>
+        <!-- ASo style file  -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet" />
         <!-- Template Stylesheet  -->
         <link rel="stylesheet" href="css/style.css" />
 
@@ -52,7 +56,7 @@
 
                 <!-- Start Hero  -->
                 <div class="nav-content">
-                    <h1>Testimonial</h1>
+                    <h1 data-aos="fade-down">Testimonial</h1>
                     <ul>
                         <li>Home</li>
                         /
@@ -66,11 +70,11 @@
 
             <!-- Start Testimonial Section  -->
             <section class="testimonial">
-                <div class="head">
+                <div class="head" data-aos="fade-up">
                     <h1 class="headline">Testimonial</h1>
                     <h2>Our Clients Say!!!</h2>
                 </div>
-                <div class="testim">
+                <div class="testim" data-aos="fade-up">
                     <div class="t-box">
                         <i class="fa fa-quote-left fa-2x"></i>
                         <p>
@@ -118,7 +122,7 @@
             <!-- // End Testimonial Section // -->
 
             <!-- // End Footer Section // -->
-            <footer class="footer">
+            <footer class="footer" data-aos="flip-down">
                 <div class="lists">
                     <div class="list">
                         <h1 class="headline">Company</h1>
@@ -200,5 +204,9 @@
             </footer>
             <!-- Start Footer Section  -->
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>menu</title>
+        <!-- ASo style file  -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet" />
         <!-- Template Stylesheet  -->
         <link rel="stylesheet" href="css/style.css" />
 
@@ -50,7 +54,7 @@
 
                 <!-- Start Hero  -->
                 <div class="nav-content">
-                    <h1>Food Menu</h1>
+                    <h1 data-aos="fade-down">Food Menu</h1>
                     <ul>
                         <li>Home</li>
                         /
@@ -64,13 +68,13 @@
 
             <!-- Start Food Menu Section  -->
             <section class="menu">
-                <div class="head">
+                <div class="head" data-aos="fade-up">
                     <h1 class="headline">Food Menu</h1>
                     <h2>Most Popular Items</h2>
                 </div>
 
                 <div class="content">
-                    <ul class="nav-menu">
+                    <ul class="nav-menu" data-aos="fade-up">
                         <li class="active">
                             <a href="">
                                 <i class="fa fa-coffee fa-2x"></i>
@@ -102,7 +106,7 @@
                         </li>
                     </ul>
 
-                    <div class="body">
+                    <div class="body" data-aos="fade-up">
                         <div class="body-box">
                             <img src="img/menu-1.jpg" alt="" />
                             <div class="date">
@@ -220,7 +224,7 @@
             <!-- // End Food Menu Section // -->
 
             <!-- // End Footer Section // -->
-            <footer class="footer">
+            <footer class="footer" data-aos="flip-down">
                 <div class="lists">
                     <div class="list">
                         <h1 class="headline">Company</h1>
@@ -302,5 +306,11 @@
             </footer>
             <!-- Start Footer Section  -->
         </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
