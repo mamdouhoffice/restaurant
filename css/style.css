@@ -184,6 +184,17 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .hero .navbar .logo {
+        font-size: 18px;
+    }
+
+    .hero .navbar .bar-i {
+        right: 20px;
+        font-size: 30px;
+    }
+}
+
 @keyframes changeHeight {
     0% {
         height: 0;
@@ -297,6 +308,40 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .hero .hero-content .text .title {
+        font-size: 20px;
+    }
+
+    .hero .hero-content .text p {
+        font-size: 10px;
+    }
+
+    .hero .hero-content .text .btn {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    .hero {
+        height: 100vh;
+    }
+
+    .hero .hero-content {
+        height: 70vh;
+        width: 100%;
+    }
+
+    .hero .hero-content .spiner img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero .hero-content .spiner {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+}
+
 /* --------- Start Services Section Style ---------------------  */
 
 .container .service {
@@ -361,6 +406,17 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .container .service .serv {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .container .service .serv h3 {
+        font-size: 14px;
+    }
+}
+
 /* --------- Start About Us Section Style ---------------------  */
 
 .container .about {
@@ -371,12 +427,7 @@ body {
 }
 
 .container .about .left {
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: left;
-    align-items: center;
+    width: 100%;
 }
 
 .container .about .left img {
@@ -498,10 +549,34 @@ body {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .container .about .right .experince {
         flex-direction: column;
         align-items: self-start;
+    }
+}
+
+@media (max-width: 500px) {
+    .container .about .right h1 {
+        font-size: 17px;
+    }
+    .container .about .right h1 i {
+        font-size: 16px;
+    }
+
+    .container .about {
+        padding: 10px;
+    }
+
+    .container .about .right {
+        width: 100%;
+    }
+    .container .about .right .experince .ex-box p span {
+        font-size: 8px;
+    }
+
+    .container .about .right .experince .ex-box h1 {
+        margin-left: 10px;
     }
 }
 
@@ -631,11 +706,27 @@ body {
     }
 }
 
-/* --------- Start Book Tabel Section Style ---------------------  */
+@media (max-width: 500px) {
+    .container .menu .head h2 {
+        font-size: 16px;
+    }
 
-.booking {
-    padding: 50px;
+    .container .menu .content .nav-menu {
+        flex-direction: column;
+    }
+
+    .container .menu .content .body .body-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container .menu .content .body .body-box .date .row {
+        display: block;
+        padding: 0px;
+        font-size: 10px;
+    }
 }
+
+/* --------- Start Book Tabel Section Style ---------------------  */
 
 .booking .content {
     background-color: var(--dark);
@@ -780,6 +871,13 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .booking .left .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+}
 /* --------- Start Team Section Style ---------------------  */
 
 .team {
@@ -875,6 +973,18 @@ body {
     font-size: 20px;
 }
 
+@media (max-width: 500px) {
+    .container .headline {
+        font-size: 16px;
+    }
+    .team {
+        padding: 5px;
+    }
+    .team .mem {
+        width: 100%;
+    }
+}
+
 /* --------- Start Testimonial Section Style ---------------------  */
 
 .testimonial {
@@ -948,6 +1058,23 @@ body {
 @media (max-width: 800px) {
     .testimonial .testim {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .testimonial .head h2 {
+        font-size: 20px;
+    }
+    .testimonial {
+        padding: 10px;
+    }
+
+    .testimonial .testim .t-box .avatar h5 {
+        font-size: 17px;
+    }
+
+    .footer {
+        padding: 10px !important;
     }
 }
 
